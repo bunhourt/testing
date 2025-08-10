@@ -10,7 +10,5 @@ public class HomeController {
     public String home() {
         return "home";
     }
-    //Testing commit
-
-    //dshuhsdjk
+    // i am here for testing the pushing and pull from hourtt
 }
