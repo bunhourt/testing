@@ -34,6 +34,7 @@ public class Lecture {
     @OneToMany(mappedBy = "lecture", fetch = FetchType.LAZY)
     private List<Registration> registrations = new ArrayList<>();
 
+    //Lecture
     // change title
     public void changeTitle(String title) {
         this.title = title;
