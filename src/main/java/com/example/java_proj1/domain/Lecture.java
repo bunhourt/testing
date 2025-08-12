@@ -35,8 +35,7 @@ public class Lecture {
     private List<Registration> registrations = new ArrayList<>();
 
     //Lecture (Test from second-hourt)
-    //Second hourt is hourtt account(Github)
-    //horut is bunhourt account(Github)
+    // Both second-hourt and horut is in hourtt github
 
     // change title
     public void changeTitle(String title) {
