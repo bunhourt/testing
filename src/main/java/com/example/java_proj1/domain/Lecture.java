@@ -34,6 +34,10 @@ public class Lecture {
     @OneToMany(mappedBy = "lecture", fetch = FetchType.LAZY)
     private List<Registration> registrations = new ArrayList<>();
 
+    //Lecture (Test from second-hourt)
+    //Second hourt is hourtt account(Github)
+    //horut is bunhourt account(Github)
+
     // change title
     public void changeTitle(String title) {
         this.title = title;
